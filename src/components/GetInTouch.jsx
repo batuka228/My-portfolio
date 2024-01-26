@@ -7,12 +7,12 @@ export const GetInTouch = ({ pup }) => {
       <div className="flex flex-col px-[32px] gap-[48px] ">
         <div className="gap-[32px] flex flex-col">
           <div className="flex justify-center items-center">
-            <div className="text-center bg-gray-300 py-[4px] px-[20px] rounded-[12px]">
+            <div className="text-center bg-gray-300 py-[4px] dark:bg-gray-700 px-[20px] rounded-[12px]">
               GetinTouch
             </div>
           </div>
           <div className="flex justify-center items-center ">
-            <p className="text-md text-gray-600">
+            <p className="text-md text-gray-600 dark:text-gray-300">
               The skills, tools and technologies I am really good at:
             </p>
           </div>

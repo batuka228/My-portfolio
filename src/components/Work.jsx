@@ -29,13 +29,13 @@ export const Work = ({ pop }) => {
       ref={pop}
       className="sm:px-[96px] sm:py-[80px] flex justify-center items-center px-[16px] py-[64px] "
     >
-      <div className="container flex flex-col gap-[16px]">
+      <div className="container flex flex-col gap-[16px] rounded-[16px] ">
         <div className="text-center flex justify-center items-center">
-          <div className="bg-gray-300 w-fit  rounded-[16px] py-[4px] px-[20px]">
+          <div className="bg-gray-300 dark:bg-gray-700 w-fit  rounded-[16px] py-[4px] px-[20px]">
             work
           </div>
         </div>
-        <p className=" text-gray-500 text-center">
+        <p className=" text-gray-500 dark:text-gray-300 text-center">
           Some of the noteworthy projects I have built:
         </p>
         <div className="flex flex-col gap-[30px]  ">
@@ -43,7 +43,9 @@ export const Work = ({ pop }) => {
             let row = i % 2 !== 0 ? "flex-row-reverse" : "flex-row";
 
             return (
-              <div className={`sm:flex ${row}  sm:*:w-[50%]         shadow-sm`}>
+              <div
+                className={`sm:flex ${row}  sm:*:w-[50%] shadow-sm rounded-[16px] relative overflow-hidden`}
+              >
                 <WorkCardImg />
                 <WorkCard data={DataArray} />
               </div>

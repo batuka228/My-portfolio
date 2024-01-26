@@ -15,7 +15,7 @@ const DataArray = [
 export const WorkCard = (props) => {
   const { data } = props;
   return (
-    <div className="px-[48px] py-[48px] flex justify-center ">
+    <div className="px-[48px] py-[48px] flex justify-center  dark:bg-gray-700  ">
       <div className="flex flex-col gap-[24px]">
         <h3>Fiskil</h3>
         <p className="text-gray-">

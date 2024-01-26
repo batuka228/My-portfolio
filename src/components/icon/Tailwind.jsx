@@ -12,7 +12,6 @@ export const Tailwind = () => {
           <g clip-path="url(#clip0_316_324)">
             <mask
               id="mask0_316_324"
-              style="mask-type:luminance"
               maskUnits="userSpaceOnUse"
               x="0"
               y="0"

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: white;
+  color: black;
+}
+.dark body {
+  background-color: black;
+  color: white;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,6 +33,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
-.icon {
-  @apply w-[24px] h-[24px] p-[6px] flex justify-center items-center;
-}

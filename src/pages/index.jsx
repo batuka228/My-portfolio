@@ -27,10 +27,6 @@ export default function Home() {
   const handleContactClick = () => {
     GetIntouch.current?.scrollIntoView({ behavior: "smooth" });
   };
-  const nar = about;
-  const ner = skills;
-  const nor = work;
-  const nur = GetIntouch;
 
   return (
     <div className="">
@@ -45,7 +41,7 @@ export default function Home() {
       <Skills pep={skills}></Skills>
       <Experience></Experience>
       <Work pop={work}></Work>
-      <GetInTouch pup={GetIntouch}></GetInTouch>
+      <GetInTouch pup={GetIntouch}></GetInTouch> */
     </div>
   );
 }

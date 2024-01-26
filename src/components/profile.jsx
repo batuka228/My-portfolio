@@ -1,3 +1,6 @@
+import { FigmaIcon } from "./icon/FigmaIcon";
+import { ProfileGit } from "./icon/ProfileGit";
+import { Twitter } from "./icon/Twitter";
 export const Profile = () => {
   return (
     <>
@@ -21,23 +24,23 @@ export const Profile = () => {
             </div>
             <div className="flex flex-row ">
               <div className="w- h- p-[6px] flex justify-center items-center">
-                <img className="w-[24px] h-[24px]" src="/github.png" alt="" />
+                <ProfileGit></ProfileGit>
               </div>
               <div className="w- h- p-[6px] flex justify-center items-center">
-                <img className="w-[24px] h-[24px]" src="/twitter.png" alt="" />
+                <Twitter></Twitter>
               </div>
               <div className="w- h- p-[6px] flex justify-center items-center">
-                <img className="w-[24px] h-[24px]" src="/figma.png" alt="" />
+                <FigmaIcon></FigmaIcon>
               </div>
             </div>
           </div>
           <div className="h-[320px] w-[280px] border-solid border-white relative rounded-[8px]">
             <img
               className="h-full w-[280px] rounded-[16px] "
-              src="https://blenderartists.org/uploads/default/original/4X/2/8/d/28d5b9a9c079329efe60a3d6068d009cea6df499.jpeg"
+              src="/IMG_0078.JPG"
               alt=""
             />
-            <div className="h-full w-[280px] bg-gray-200 absolute left-[40px] top-[40px] -z-10 rounded-[16px]"></div>
+            <div className="h-full w-[300px] bg-gray-200 dark:bg-gray-700 absolute -left-[10px] top-[30px] sm:w-[280px] sm:left-[40px] sm:top-[40px]  -z-10 rounded-[16px]"></div>
           </div>
         </div>
       </main>

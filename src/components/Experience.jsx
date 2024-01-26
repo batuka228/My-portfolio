@@ -37,12 +37,12 @@ const data = [
 ];
 export const Experience = () => {
   return (
-    <div className="sm:py-[80px] sm:px-[96px] flex justify-center items-center bg-gray-50  flex-col gap-[16px] py-[16px] px-[64px]">
-      <div className="bg-gray-300 w-fit  rounded-[16px] py-[4px] px-[20px]">
+    <div className="sm:py-[80px] sm:px-[96px] flex justify-center items-center bg-gray-50 dark:bg-black  flex-col gap-[16px] py-[16px] px-[64px]">
+      <div className="bg-gray-300 dark:bg-gray-600 w-fit  rounded-[16px] py-[4px] px-[20px]">
         Experience
       </div>
       <p>Here is a quick summary of my most recent experiences</p>
-      <div className="container flex justify-center items-center flex-col ">
+      <div className="container flex justify-center items-center flex-col gap-[48px]">
         <Upwork dataArray={data}></Upwork>
       </div>
     </div>
