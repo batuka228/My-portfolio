@@ -136,12 +136,12 @@ export const Header = ({
             <div
               id="modalContainer"
               onClick={CloseClick}
-              className={`w-full   h-[100vh] bg-opacity-40 bg-gray-400  absolute top-1 right-[1px] rounded-[8px] flex justify-end z-[3]`}
+              className={`w-full  h-[100vh] bg-opacity-40 bg-gray-400  absolute top-1 right-[1px] rounded-[8px] flex justify-end z-[3]`}
             ></div>
             <div
               className={`absolute top-1 right-[1px] z-[4] w-[80%] ${
                 show ? "translate-x-0" : "translate-x-[100vh]"
-              } transition-all duration-300 ease-in-out  h-[100vh] rounded-[8px] flex justify-end `}
+              } transition-all duration-300 ease-in-out  h-[100vh]  rounded-[8px] flex justify-end `}
             >
               <Modal
                 isData={isDarkMode}

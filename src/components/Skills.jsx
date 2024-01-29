@@ -15,7 +15,7 @@ export const Skills = ({ pep }) => {
       <div className="px-[32px] flex flex-col gap-[48px] ">
         <div className="gap-[32px] flex flex-col">
           <div className="flex justify-center items-center">
-            <div className="text-center bg-gray-300 py-[4px] px-[20px] rounded-[12px] dark:bg-gray-200">
+            <div className="text-center bg-gray-300 py-[4px] px-[20px] rounded-[12px] dark:bg-gray-600">
               Skills
             </div>
           </div>

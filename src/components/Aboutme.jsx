@@ -1,7 +1,7 @@
 export const About_me = ({ pap }) => {
   return (
     <>
-      <main className="py-[96px] flex justify-center items-center bg-gray-100  dark:bg-black">
+      <main className="py-[96px] flex justify-center items-center bg-gray-100  dark:bg-gray-900">
         <div
           ref={pap}
           className=" container flex justify-center items-center px-[32px] flex-col gap-[48px]"

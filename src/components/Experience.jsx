@@ -37,7 +37,7 @@ const data = [
 ];
 export const Experience = () => {
   return (
-    <div className="sm:py-[80px] sm:px-[96px] flex justify-center items-center bg-gray-50 dark:bg-black  flex-col gap-[16px] py-[16px] px-[64px]">
+    <div className="sm:py-[80px] sm:px-[96px] flex justify-center items-center bg-gray-50 dark:bg-gray-900  flex-col gap-[16px] py-[16px] px-[64px]">
       <div className="bg-gray-300 dark:bg-gray-600 w-fit  rounded-[16px] py-[4px] px-[20px]">
         Experience
       </div>
